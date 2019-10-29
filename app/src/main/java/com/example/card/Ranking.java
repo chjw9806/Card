@@ -30,7 +30,12 @@ public class Ranking extends AppCompatActivity {
     }
 
     public void easyTime(String eTime){
-        tvE1.setText("1등 " + eTime);
+        if(eTime.equals("")){
+
+        }
+        else{
+            tvE1.setText("1등 " + eTime);
+        }
     }
 
     @Override

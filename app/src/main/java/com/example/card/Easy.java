@@ -27,7 +27,7 @@ public class Easy extends AppCompatActivity implements View.OnClickListener {
     int r[] = new int[4], t[] = new int[4], num[] = new int[8];
     double initTime;
     int check, num1=-1, num2=-1;
-    public static String time;
+    public static String time="";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
